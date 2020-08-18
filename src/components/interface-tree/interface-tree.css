@@ -1,0 +1,7 @@
+.interface-tree {
+    flex-grow: 2;
+    margin: 1rem 0.5rem 1rem 1rem;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    position: relative;
+}

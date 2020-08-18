@@ -1,0 +1,11 @@
+.modal {
+    top: 30%;
+    display: block;
+}
+.modal-body {
+    display: flex;
+}
+.input-group {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}

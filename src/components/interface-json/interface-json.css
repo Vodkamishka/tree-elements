@@ -1,0 +1,24 @@
+.interface-json {
+    width: 500px;
+    margin: 1rem 1rem 1rem 0.5rem;
+    border: 1px solid lightgray;
+    min-height: calc(100vh - 3rem);
+    padding: 1rem;
+    font-weight: 500;
+}
+.interface-json__data, 
+.interface-json__node, 
+.interface-json__scope,
+.interface-json__json
+ {
+    margin-left: 20px;
+}
+.interface-json__params {
+    margin-left: 10px;
+}
+.interface-json__data {
+    display: flex;
+}
+.interface-json__key {
+    margin-right: 10px;
+}

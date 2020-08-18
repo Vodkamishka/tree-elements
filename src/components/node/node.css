@@ -1,0 +1,34 @@
+.node {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+.node__li {
+    list-style-type: none;
+    margin: 2px 15px;
+    position: relative;
+}
+.node__attributes {
+    border: 1px dotted lightgray;
+    padding: 0px 20px;
+    display: inline-block;
+   
+    cursor: pointer;
+    min-width: 180px;
+    min-height: 25px;
+    
+}
+.node__attributes:hover, .node__atributes_selected {
+    background: lightgreen;
+}
+.node__folder {
+    
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+
+}
+.node__wrapper {
+    display: flex;
+    align-items: center;
+}
